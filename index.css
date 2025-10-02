@@ -1,0 +1,22 @@
+*{
+
+}
+
+body {
+    margin: 0;
+    background-color: rgb(49, 93, 214);
+}
+.login{
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* A altura da tela */
+    flex-direction: column; /* Coloca os formulários em coluna (um abaixo do outro) */
+    gap: 20px; /* Espaçamento entre os formulários */
+}
+
+.mail {
+    border: 1px;
+    border-radius: 30;
+    border-color: black;
+}
