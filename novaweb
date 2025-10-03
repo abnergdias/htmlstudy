@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Abner Dias">
+    <meta name="keywords" content="tela,login,site,web">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body class="abner">
+    <form class="login">
+
+            <label for="campo_mail">Usuário:</label>
+            <input id="campo_mail" type="text" placeholder="Digite seu usuário" required>
+            <label for="campo_senha">Senha:</label>
+            <input id="campo_senha" type="password" placeholder="Digite sua senha" required>
+            <button type="submit">Enviar</button>
+    </form>
+
+</body>
+
+</html>
